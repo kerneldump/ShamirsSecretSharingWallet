@@ -39,7 +39,8 @@ To setup the project, follow these steps:
 To run this project after setup, you will need to execute:
 
 ```bash
-go run shamir_wallet.go
+go run shamir_wallet.go generate -t 3 -n 5 -o wallet.json
+go run shamir_wallet.go reconstruct -w wallet.json -s "1 3 5"
 ```
 
 ## Troubleshooting
