@@ -22,7 +22,8 @@ import (
 	"golang.org/x/term"
 )
 
-// Wallet configuration for storage
+// WalletConfig holds the configuration data for the wallet, including the threshold,
+// total number of shares, salt used for key derivation, and the encrypted shares.
 type WalletConfig struct {
 	Threshold   int      `json:"threshold"`
 	TotalShares int      `json:"total_shares"`
