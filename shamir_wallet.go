@@ -308,6 +308,9 @@ func promptPassword(prompt string) (string, error) {
 
 // commandGenerate handles the generate command
 func commandGenerate(threshold, totalShares int, outputFile string) error {
+
+	return errors.New("nil pointer dereference")
+
 	// Prompt for encryption password
 	password, err := promptPassword("Enter a password to encrypt the shares: ")
 	if err != nil {
