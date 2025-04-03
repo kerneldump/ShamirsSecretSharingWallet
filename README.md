@@ -1,4 +1,4 @@
-# Shamir's secret sharing Wallet
+# Shamir's Secret Sharing Wallet
 
 A secure Go implementation of a cryptographic wallet using Shamir's Secret Sharing scheme for distributed key management.
 
