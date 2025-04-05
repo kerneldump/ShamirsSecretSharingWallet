@@ -2,7 +2,7 @@
 
 A secure Go implementation of a cryptographic wallet using Shamir's Secret Sharing scheme for distributed key management.
 
-Shamir's secret sharing (SSS) is an efficient secret sharing algorithm for distributing private information (the "secret") among a group. The secret cannot be revealed unless a minimum number of the group's members act together to pool their knowledge. To achieve this, the secret is mathematically divided into parts (the "shares") from which the secret can be reassembled only when a sufficient number of shares are combined. SSS has the property of information-theoretic security, meaning that even if an attacker steals some shares, it is impossible for the attacker to reconstruct the secret unless they have stolen a sufficient number of shares.
+Shamir's secret sharing is an efficient secret sharing algorithm for distributing private information (the "secret") among a group. The secret cannot be revealed unless a minimum number of the group's members act together to pool their knowledge. To achieve this, the secret is mathematically divided into parts (the "shares") from which the secret can be reassembled only when a sufficient number of shares are combined. SSS has the property of information-theoretic security, meaning that even if an attacker steals some shares, it is impossible for the attacker to reconstruct the secret unless they have stolen a sufficient number of shares.
 
 ## Overview
 
